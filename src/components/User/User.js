@@ -17,10 +17,10 @@ const User = () => {
             </div>
           </div>
           <div className="d-flex flex-column mt-5">
-            <small className="mb-2">Motivation</small>
-            <small className="mb-2">Productivity</small>
-            <small className="mb-2">Design</small>
-            <small className="mb-2">Study</small>
+            <small className="mb-2 hvr-grow-shadow">Motivation</small>
+            <small className="mb-2 hvr-grow-shadow">Productivity</small>
+            <small className="mb-2 hvr-grow-shadow">Design</small>
+            <small className="mb-2 hvr-grow-shadow">Study</small>
           </div>
 
           <Card className="d-flex flex-row dark-color border-style w-50 mt-5 mx-5 py-3 px-1">
@@ -35,25 +35,25 @@ const User = () => {
         </Col>
         <Col md={8} className=" mt-5">
         <h2>Motivation</h2>
-        <div className="d-flex">
-            <small className="mb-2 mr-2">All</small>
-            <small className="mb-2 mr-2">Motivation</small>
-            <small className="mb-2 mr-2">Productivity</small>
-            <small className="mb-2 mr-2">Design</small>
-            <small className="mb-2 mr-2">Study</small>
+        <div className="d-block">
+            <small className="mb-2 mr-3 small-border-style">All</small>
+            <small className="mb-2 mr-3 small-border-style">Motivation</small>
+            <small className="mb-2 mr-3 small-border-style">Productivity</small>
+            <small className="mb-2 mr-3 small-border-style">Design</small>
+            <small className="mb-2 mr-3 small-border-style">Study</small>
         </div>
 
           <div class="row mt-5">
             <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
               <img
                 src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
-                className="w-100 shadow-1-strong rounded mb-4"
+                className="w-100 shadow-1-strong rounded mb-4 hvr-grow-shadow"
                 alt=""
               />
 
               <img
                 src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg"
-                className="w-100 shadow-1-strong rounded mb-4"
+                className="w-100 shadow-1-strong rounded mb-4 hvr-grow-shadow "
                 alt=""
               />
             </div>
@@ -61,13 +61,13 @@ const User = () => {
             <div className="col-lg-4 mb-4 mb-lg-0">
               <img
                 src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg"
-                className="w-100 shadow-1-strong rounded mb-4"
+                className="w-100 shadow-1-strong rounded mb-4 hvr-grow-shadow "
                 alt=""
               />
 
               <img
                 src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
-                className="w-100 shadow-1-strong rounded mb-4"
+                className="w-100 shadow-1-strong rounded mb-4 hvr-grow-shadow "
                 alt=""
               />
             </div>
@@ -75,13 +75,13 @@ const User = () => {
             <div className="col-lg-4 mb-4 mb-lg-0">
               <img
                 src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-                className="w-100 shadow-1-strong rounded mb-4"
+                className="w-100 shadow-1-strong rounded mb-4 hvr-grow-shadow "
                 alt=""
               />
 
               <img
                 src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg"
-                class="w-100 shadow-1-strong rounded mb-4"
+                class="w-100 shadow-1-strong rounded mb-4 hvr-grow-shadow "
                 alt=""
               />
             </div>

@@ -14,6 +14,10 @@
   /* border-color: #616161; */
   border: 1px solid #616161;
 }
+.small-border-style:hover {
+  color: #c496ef;
+  cursor: pointer;
+}
 .hvr-grow-shadow {
   display: inline-block;
   vertical-align: middle;
