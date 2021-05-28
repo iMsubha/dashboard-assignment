@@ -1,8 +1,8 @@
 import { Animation, ValueScale } from '@devexpress/dx-react-chart';
 import {
-    ArgumentAxis,
-    Chart,
-    SplineSeries, ValueAxis
+  ArgumentAxis,
+  Chart,
+  SplineSeries, ValueAxis
 } from '@devexpress/dx-react-chart-bootstrap4';
 import React from 'react';
 const AnimatedProgressBar = () => {

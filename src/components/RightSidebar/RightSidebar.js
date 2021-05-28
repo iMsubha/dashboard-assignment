@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Image } from 'react-bootstrap';
 import developerImg from '../../assets/images/dev-images.svg';
 import Applicants from '../Applicants/Applicants';
@@ -10,6 +10,13 @@ const RightSidebar = () => {
         {name: 'Elizabeth Hurton'},
         {name: 'Danny Watson'}
     ];
+   const [usersdata, setUsers] = useState('')
+   useEffect(() =>{
+       fetch('https://shrouded-tundra-64489.herokuapp.com/users')
+       .then(res => res.json())
+       .then(data => setUsers(data))
+   },[])
+    console.log(usersdata);
     return (
         <div className="d-flex justify-content-center flex-column">
          <div className="ml-5">
@@ -17,10 +24,10 @@ const RightSidebar = () => {
          </div>
          <h4 className="mt-5 pt-5 ml-5">New Applicants</h4>
          <div>
-            { 
-                users.map(user=> <Applicants user={user}/>)
-            }
-        </div>
+          {
+            users.map( user =>  <Applicants key={user._id} user={user}></Applicants>)
+          } 
+         </div>
         </div>
 
     );

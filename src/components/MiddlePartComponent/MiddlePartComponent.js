@@ -12,13 +12,13 @@ const MiddlePartComponent = () => {
         { bgcolor: "#8cf5ab", completed: 20, title: "Selected" },
       ];
     return (
-           <Row>
-               <Col sm={12} md={8} style={{ width:'500px'}}>
+           <Row className="mt-2">
+               <Col sm={12} md={8} style={{ width:'400px'}} className="hvr-grow-shadow">
                 <Card style={{height:'280px'}} className="border-style">
                   <AnimatedProgressBar/>
                 </Card>
                </Col>
-               <Col sm={12} md={4}>
+               <Col sm={12} md={4} className="hvr-grow-shadow">
                   <Card  style={{height:'280px', backgroundColor:'#1d1d1d'}} className="border-style p-2">
                     {testData.map((item, idx) => (<ProgressBar
                       key={idx}

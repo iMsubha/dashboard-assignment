@@ -1,7 +1,7 @@
 import { Animation } from '@devexpress/dx-react-chart';
 import {
-    Chart,
-    PieSeries
+  Chart,
+  PieSeries
 } from '@devexpress/dx-react-chart-bootstrap4';
 import '@devexpress/dx-react-chart-bootstrap4/dist/dx-react-chart-bootstrap4.css';
 import React from 'react';
@@ -59,14 +59,14 @@ const BottomPartComponent = () => {
                 </div>
             </div>
         </div>
-      <div style={{height:'100px'}} className="d-flex flex-row dark-color"> 
+      <div style={{height:'100px'}} className="d-flex flex-row "> 
             {
                 statusData.map(status =><StatusCards status={status}></StatusCards>)
             }
         </div>
-      <div className="d-flex mt-3 justify-content-center">
-            <Button style={{backgroundColor:'#34a9cf'}} className="mr-2 border-0">Start a New Campaign</Button>
-            <Button style={{backgroundColor:'#f88'}} className="border-0">Pause All Running Campaign</Button>
+      <div className="d-flex mt-3 justify-content-around">
+            <Button style={{backgroundColor:'#34a9cf'}} className="mr-2  btn-border-style hvr-grow-shadow">Start a New Campaign</Button>
+            <Button style={{backgroundColor:'#f88'}} className="btn-border-style hvr-grow-shadow">Pause All Running Campaign</Button>
        </div>
        </Col>
        <Col sm={12} md={4}>

@@ -6,8 +6,8 @@ const CardComponent = ({applicant}) => {
     const { title,number,percentage, totalPercentage,color } = applicant;
 //1d1d1d
     return ( 
-           <Card style={{width:'250px'}} className="d-flex flex-row dark-color m-2 p-2 border-style">
-               <div className="">
+           <Card style={{width:'230px'}} className="d-flex flex-row dark-color ml-2 mr-4 mt-3 py-2 px-3 border-style hvr-grow-shadow">
+               <div>
                     <p>{title}</p>
                     <h4>{number}</h4>
                     <p style={{color:`${color}`}}>{totalPercentage}%</p>

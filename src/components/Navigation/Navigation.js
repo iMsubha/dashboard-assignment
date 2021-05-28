@@ -14,6 +14,7 @@ import {
 import "react-pro-sidebar/dist/css/styles.css";
 import { Link } from "react-router-dom";
 import logo from '../../assets/images/logo.png';
+import './Navigation.css';
 const Navigation = () => {
   return (
       <ProSidebar collapsed={true}>
@@ -24,42 +25,42 @@ const Navigation = () => {
         </SidebarHeader>
 
         <SidebarContent className="mb-4">
-          <Link to="/dashboard"  className="d-flex justify-content-center p-3">
+          <Link to="/dashboard"  className="d-flex justify-content-center p-3  nav-link-active">
             <MenuItem>
-              <AiOutlineHome size="1rem"/>
+              <AiOutlineHome  size="1rem"/>
             </MenuItem>
           </Link>
 
-          <Link to="/user" className="d-flex justify-content-center p-3">
+          <Link to="/user" className="d-flex justify-content-center p-3 nav-link-active">
             <MenuItem >
               <BsPeopleFill size="1rem"/>
             </MenuItem>
           </Link>
           
-          <Link to="/test" className="d-flex justify-content-center p-3">
+          <Link to="/test" className="d-flex justify-content-center p-3 nav-link-active">
             <MenuItem>
               <AiOutlineBarChart size="1rem" />
             </MenuItem>
           </Link>
           
-          <Link to="/test" className="d-flex justify-content-center p-3">
+          <Link to="/test" className="d-flex justify-content-center p-3 nav-link-active">
             <MenuItem>
             <AiFillFolder size="1rem"/>
             </MenuItem>
           </Link>
 
-          <Link to="/test" className="d-flex justify-content-center p-3">
+          <Link to="/test" className="d-flex justify-content-center p-3 nav-link-active">
             <MenuItem >
               <BsFolderCheck size="1rem"/>
             </MenuItem>
           </Link>
 
-          <Link to="/test" className="d-flex justify-content-center p-3">
+          <Link to="/test" className="d-flex justify-content-center p-3 nav-link-active">
             <MenuItem >
               <GoNote size="1rem"/>
             </MenuItem>
           </Link>
-          <Link to="/test" className="d-flex justify-content-center p-3">
+          <Link to="/test" className="d-flex justify-content-center p-3 nav-link-active">
             <MenuItem >
               <BsBoxArrowRight size="1rem"/>
             </MenuItem>

@@ -1,0 +1,18 @@
+.nav-link-active {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.nav-link-active:hover {
+  width: 100%;
+  /* right: 0; */
+  background-color: #3f3328;
+  border-radius: 8px;
+  padding: 20px;
+}
